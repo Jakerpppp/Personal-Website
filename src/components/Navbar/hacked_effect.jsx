@@ -30,12 +30,6 @@ function hackedEffect(element) {
         iteration += 1 / 6;
       }, 30);
     };
-    
-    // Reset the text content when the mouse leaves the element
-    element.onmouseout = event => {
-      clearInterval(interval);
-      element.innerText = originalText;
-    };
   }
   
 
