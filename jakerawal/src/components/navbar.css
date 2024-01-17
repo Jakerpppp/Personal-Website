@@ -17,7 +17,6 @@
     display: inline-block;
 }
 
-/* Style the links inside the navigation bar */
 .navLinks a{
     color: white;
     text-align: center;
@@ -33,12 +32,25 @@
 }
 
 .navLinks a:hover {
-    color: black;
-    background-color: white;
     padding: 0.5rem 2.5rem;
     min-width: 12rem;
     font-size: 2rem;
 }
+
+.navLinks .home-link:hover {
+    color: red
+}
+
+.navLinks .project-link:hover {
+    color: lightskyblue
+}
+
+.navLinks .contact-link:hover {
+    color: yellow
+}
+
+
+
 
 
 
