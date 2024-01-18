@@ -6,7 +6,7 @@
     width: 100%; /* Full width of the viewport */
     background-color: rgb(0, 0, 0);
     padding: 1px; /* Add some padding for spacing */
-    box-shadow: 0 0 20px red; /* Red glow effect */
+    box-shadow: 0 0 20px yellow; /* Red glow effect */
     color: white; /* Text color */
   }
   
