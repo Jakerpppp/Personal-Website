@@ -10,5 +10,5 @@ function ClickableLogo({ picture, link }) {
   );
 }
 
-export default Button;
+export default ClickableLogo;
 
