@@ -1,3 +1,4 @@
+/* Adapted from https://codepen.io/Hyperplexed/pen/oNJrgdy */
 :root {
     --dark-rgb: 23 28 28;
     --darker-rgb: 8 13 7;
@@ -5,53 +6,32 @@
     --green: 9 252 8;
     --blue: 59 130 246;
     --pink: 231 60 126;
+    --red: 255 0 0;
     
     --background-rgb: 12 12 12;
-    --theme-rgb: var(--green);
+    --theme-rgb: var(--red);
 }
 
 #prize {
-    width: 88rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.5rem;
-    position: relative;
-    z-index: 2;
-    background-color: rgb(var(--darker-rgb));
-    border: 1.5rem solid rgb(255 255 255 / 2.5%);
-    padding: 10rem 4rem;  
-    box-shadow: 0rem 0rem 10rem 4rem rgb(0 0 0 / 75%);
-    backdrop-filter: blur(1rem);
-  }
+  width: 90vw;
+  gap: 0.5rem;
+  background-color: rgb(var(--darker-rgb));
+  border: 1.5rem solid rgb(255 255 255 / 2.5%);
+  padding: 10rem 4rem;
+  box-shadow: 0rem 0rem 10rem 4rem rgb(0 0 0 / 75%);
+  backdrop-filter: blur(1rem);
+  position: absolute;
+  top: -15vh; /* Adjusted to start from the top of the screen */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
   
   #prize-label,
   #prize-text {
     color: rgb(var(--theme-rgb));
     text-align: center;
-  }
-  
-  #prize-label {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-    font-size: 3rem;
-    opacity: 0.75;
-    position: absolute;
-    top: 10rem; /* Adjust the top position as needed */
-    left: 50%;
-    transform: translateX(-50%);
-    width: 100%;
-  }
-  
-  #prize-label > span {
-    display: inline-flex; 
-  }
-  
-  #prize-label > .asterisk {
-    padding-top: 0.25em;
-    line-height: 0.5em;
   }
   
   #prize-text {  
