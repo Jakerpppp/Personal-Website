@@ -1,13 +1,16 @@
 import React from 'react';
 import Navbar from './components/Navbar/navbar';
 import './App.css';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
+    <>
     <div className="App">
-      <Navbar />
-      {/* Add other components/content here */}
+      <header> <Navbar /></header>
+        <Footer/>
     </div>
+    </>
   );
 }
 
