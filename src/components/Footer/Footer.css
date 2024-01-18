@@ -1,8 +1,7 @@
 /* Footer.css */
   
   .footer-container {
-    position: fixed; /* Fixed position */
-    bottom: 0; /* At the bottom of the viewport */
+    position: absolute;
     left: 0;
     width: 100%; /* Full width of the viewport */
     background-color: rgb(0, 0, 0);

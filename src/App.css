@@ -4,3 +4,7 @@
   padding: 2rem;
   text-align: center;
 }
+
+.container {
+  min-height: calc(100vh - 10px);
+}

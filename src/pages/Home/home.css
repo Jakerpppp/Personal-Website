@@ -1,0 +1,127 @@
+:root {
+    --dark-rgb: 23 28 28;
+    --darker-rgb: 8 13 7;
+    
+    --green: 9 252 8;
+    --blue: 59 130 246;
+    --pink: 231 60 126;
+    
+    --background-rgb: 12 12 12;
+    --theme-rgb: var(--green);
+}
+
+#prize {
+    width: 88rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    position: relative;
+    z-index: 2;
+    background-color: rgb(var(--darker-rgb));
+    border: 1.5rem solid rgb(255 255 255 / 2.5%);
+    padding: 10rem 4rem;  
+    box-shadow: 0rem 0rem 10rem 4rem rgb(0 0 0 / 75%);
+    backdrop-filter: blur(1rem);
+  }
+  
+  #prize-label,
+  #prize-text {
+    color: rgb(var(--theme-rgb));
+    text-align: center;
+  }
+  
+  #prize-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 3rem;
+    opacity: 0.75;
+    position: absolute;
+    top: 10rem; /* Adjust the top position as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+  }
+  
+  #prize-label > span {
+    display: inline-flex; 
+  }
+  
+  #prize-label > .asterisk {
+    padding-top: 0.25em;
+    line-height: 0.5em;
+  }
+  
+  #prize-text {  
+    display: flex;
+    gap: 1rem;
+    height: 10rem;
+    line-height: 10rem;
+    font-size: 11rem;
+  }
+  
+  #prize-text > .digit {  
+    width: 8rem;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 0.25rem solid rgb(var(--theme-rgb));
+  }
+  
+  #prize-text > .digit > .digit-track {  
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute; 
+    top: 2rem; /* Adjust the top position as needed */
+    left: 50%;
+    translate: 0% 0%;
+    transition: translate 3000ms cubic-bezier(.1,.67,0,1);
+    gap: 1rem;
+    height: 10rem;
+    line-height: 10rem;
+    font-size: 11rem;
+  }
+
+  
+  .prize-filter {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    pointer-events: none;
+  }
+  
+  @keyframes pan-lines {
+    from {
+      background-position: 0% 0%;
+    }
+    
+    to {
+      background-position: 0% -100%;
+    }
+  }
+  
+  #prize-lines {
+    background: linear-gradient(
+      rgb(var(--darker-rgb) / 15%) 0%,
+      rgb(var(--darker-rgb) / 75%) 28%,
+      rgb(var(--darker-rgb) / 15%) 56%,
+      rgb(var(--darker-rgb) / 5%) 56%,
+      rgb(var(--darker-rgb) / 5%) 100%
+    );
+    background-size: 100% 7px;
+    z-index: 2;
+    animation: pan-lines 360s infinite linear;
+  }
+  
+  #prize-shadow {
+    background: radial-gradient(
+      rgb(var(--theme-rgb) / 1%) 20%, 
+      rgb(var(--darker-rgb) / 80%) 70%
+    );
+    z-index: 3;
+  }
