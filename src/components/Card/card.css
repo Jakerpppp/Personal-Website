@@ -6,6 +6,7 @@
     overflow: hidden;
     display: flex;
     margin-bottom: 20px; /* Adjust margin-bottom to control space between cards */
+    cursor: pointer;
 }
 
 .card:hover {
@@ -65,4 +66,23 @@
   .card-button:focus-visible {
     outline-offset: 1px;
   }
+
+.text-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  z-index: 1000;
+
+  h2,
+  p {
+    text-align: center;
+  }
+}
   

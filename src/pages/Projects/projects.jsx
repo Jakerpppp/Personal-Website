@@ -1,6 +1,5 @@
 import './projects.css'
 import Card from '../../components/Card/card'
-import Modal from '../../components/Modal/modal'
 
 function Projects() {
 
@@ -15,7 +14,6 @@ function Projects() {
             <Card />
             <Card />
         </div>
-        <Modal/>
         </>
     )
 }
