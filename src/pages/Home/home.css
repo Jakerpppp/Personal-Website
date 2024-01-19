@@ -13,7 +13,7 @@
 }
 
 #prize {
-  width: 90vw;
+  width: 100vw;
   gap: 0.5rem;
   background-color: rgb(var(--darker-rgb));
   border: 1.5rem solid rgb(255 255 255 / 2.5%);
@@ -104,4 +104,23 @@
       rgb(var(--darker-rgb) / 80%) 70%
     );
     z-index: 3;
+  }
+
+  @media (max-width: 600px) {
+    #prize {
+      padding: 1rem;
+    }
+  
+    #prize-text {
+      font-size: 1.5rem;
+    }
+  
+    #prize-text > .digit {
+      width: 3rem;
+    }
+  
+    #prize-text > .digit > .digit-track {
+      font-size: 1.5rem;
+      top: 0.5rem;
+    }
   }
