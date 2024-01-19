@@ -1,13 +1,13 @@
 import './card.css'
 
-function Card() {
+function Card({image, title, description}) {
 
     return (
     <div class="card">
-        <img src="github-mark-white.png" alt="Card Image" class="card-image"/>
+        <img src={image} alt="Card Image" class="card-image"/>
         <div class="card-content">
-        <h2 class="card-title">Card Title</h2>
-        <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget dolor mauris.</p>
+        <h2 class="card-title">{title}</h2>
+        <p class="card-description">{description}</p>
         <button class="card-button">More Info!</button>
         </div>
     </div>
