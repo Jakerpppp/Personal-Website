@@ -8,7 +8,7 @@ function Card() {
         <div class="card-content">
         <h2 class="card-title">Card Title</h2>
         <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget dolor mauris.</p>
-        <button class="card-button">Click me</button>
+        <button class="card-button">More Info!</button>
         </div>
     </div>
     )

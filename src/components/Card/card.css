@@ -33,7 +33,41 @@
     color: #ccc;
 }
 
+
 .card-button {
+    outline: 0;
+    grid-gap: 8px;
+    align-items: center;
+    background-color: #fff; /* Set button background color to white */
+    color: #000; /* Set text color to black */
+    border: 1px solid #000;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-flex;
+    flex-shrink: 0;
+    font-size: 16px;
+    gap: 8px;
+    justify-content: center;
+    line-height: 1.5;
+    overflow: hidden;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    transition: all 0.14s ease-out;
+    white-space: nowrap;
+  }
+  
+  .card-button:hover {
+    box-shadow: 4px 4px 0 red;
+    transform: translate(-4px, -4px);
+  }
+  
+  .card-button:focus-visible {
+    outline-offset: 1px;
+  }
+  
+
+.card-butt1 {
     display: block;
     margin-top: 15px;
     padding: 8px 16px;
@@ -44,10 +78,34 @@
     cursor: pointer;
     font-size: 14px;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
-}
+    right: -10px;
 
-.card-button:hover {
-    background-color: #2980b9;
-    box-shadow: 0 0 10px 5px #f00;
+    outline: 0;
+    grid-gap: 8px;
+    align-items: center;
+    background: 0 0;
+    border: 1px solid #000;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-flex;
+    flex-shrink: 0;
+    font-size: 16px;
+    gap: 8px;
+    justify-content: center;
+    line-height: 1.5;
+    overflow: hidden;
+    padding: 12px 16px;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    transition: all .14s ease-out;
+    white-space: nowrap;
+    :hover {
+        box-shadow: 4px 4px 0 red;
+        transform: translate(-4px,-4px);
+    }
+    :focus-visible{
+        outline-offset: 1px;
+    }
+
 }
   
