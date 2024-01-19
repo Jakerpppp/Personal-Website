@@ -1,8 +1,10 @@
 import './card.css'
 
+
 function Card({image, title, description}) {
 
     return (
+        <>
     <div class="card">
         <img src={image} alt="Card Image" class="card-image"/>
         <div class="card-content">
@@ -11,6 +13,7 @@ function Card({image, title, description}) {
         <button class="card-button">More Info!</button>
         </div>
     </div>
+    </>
     )
 
 }
