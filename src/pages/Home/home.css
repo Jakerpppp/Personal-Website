@@ -1,16 +1,4 @@
 /* Adapted from https://codepen.io/Hyperplexed/pen/oNJrgdy */
-:root {
-    --dark-rgb: 23 28 28;
-    --darker-rgb: 8 13 7;
-    
-    --green: 9 252 8;
-    --blue: 59 130 246;
-    --pink: 231 60 126;
-    --red: 255 0 0;
-    
-    --background-rgb: 12 12 12;
-    --theme-rgb: var(--red);
-}
 
 #prize {
   width: 100vw;
@@ -104,23 +92,4 @@
       rgb(var(--darker-rgb) / 80%) 70%
     );
     z-index: 3;
-  }
-
-  @media (max-width: 600px) {
-    #prize {
-      padding: 1rem;
-    }
-  
-    #prize-text {
-      font-size: 1.5rem;
-    }
-  
-    #prize-text > .digit {
-      width: 3rem;
-    }
-  
-    #prize-text > .digit > .digit-track {
-      font-size: 1.5rem;
-      top: 0.5rem;
-    }
   }
