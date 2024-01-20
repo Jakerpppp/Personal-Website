@@ -7,7 +7,7 @@ import hackedEffect from "./hacked_effect.jsx";
 function Footer() {
 
     useEffect(() => {
-        const links = document.querySelectorAll('.custom-effect');
+        const links = document.querySelectorAll('.footer-effect');
     
         links.forEach(link => {
           hackedEffect(link);
