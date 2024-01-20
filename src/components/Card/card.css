@@ -86,12 +86,15 @@
 }
 
 .text-screen-content {
-  max-width: 100vw;
+  max-width: 70vw;
   padding: 20px;
   background-color: #333;
   border: 2px solid #fff;
   border-radius: 8px;
   text-align: center;
+  max-height: 80vh;
+  /* max-width: 70vh; */
+  overflow-y: auto;
 }
 
 .text-screen-title {
@@ -117,13 +120,13 @@
 }
 
 .tech-used-text {
-  font-size: 40px;
+  font-size: 30px;
   color: #ccc;
   margin-bottom: 16px;
 }
 
 .long-description {
-  font-size: 16px;
+  font-size: 20px;
   color: #ccc;
 }
 

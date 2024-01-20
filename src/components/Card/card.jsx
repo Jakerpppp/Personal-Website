@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './card.css';
 import ClickableLogo from '../ClickableLogo/ClickableLogo';
 
-function Card({image, title, short_description, techUsed, img1, img2, img3, img4, img5, logo1, logo2, long_description }) {
+function Card({image, title, short_description, techUsed, img1, img2, img3, img4, img5, logo1pic, logo1link, logo2pic, logo2link, long_description }) {
   const [showTextScreen, setShowTextScreen] = useState(false);
 
   const handleButtonClick = () => {
@@ -29,12 +29,12 @@ function Card({image, title, short_description, techUsed, img1, img2, img3, img4
           <div className="text-screen-content">
             <h2 className="text-screen-title">{title}</h2>
             
-            {logo1 && (
-              <ClickableLogo picture={button1Logo.picture} link={button1Logo.link} />
+            {logo1pic && (
+              <ClickableLogo picture={logo1pic} link={logo1link} />
             )}
 
-            {logo2 && (
-              <ClickableLogo picture={button2Logo.picture} link={button2Logo.link} />
+            {logo2pic && (
+              <ClickableLogo picture={logo2pic} link={logo2link} />
             )}
 
             <div className="tech-used">
