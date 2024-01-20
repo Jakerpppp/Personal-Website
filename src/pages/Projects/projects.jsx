@@ -18,13 +18,13 @@ function Projects() {
         <div style={{ marginTop: '100px' }}>
         <h1 className='custom-effect'>Projects</h1>
             <Card 
-                image={"github-mark-white.png"} 
+                image={"logos/github-mark-white.png"} 
                 title={"W"} 
                 short_description={"A Website developed in React to showcase my Coding Projects"}
-                logo1pic={"github-mark-white.png"}
+                logo1pic={"logos/github-mark-white.png"}
                 logo1link={"https://www.google.com"}
-                img1={"github-mark-white.png"}
-                img2={"github-mark-white.png"}
+                img1={"logos/github-mark-white.png"}
+                img2={"logos/github-mark-white.png"}
                 techUsed={'I used all the Tech in the entire world'}
                 long_description={
                     "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis " +

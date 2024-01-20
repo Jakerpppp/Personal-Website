@@ -20,8 +20,8 @@ function Footer() {
         <h1 className="footer-effect">Contact Me!</h1>
         <a className='text-style' href="mailto:jake.rawal3@gmail.com">jake.rawal3@gmail.com</a>
         <div>
-            <ClickableLogo picture={"/github-mark-white.png"} link={"https://github.com/Jakerpppp"} /> 
-            <ClickableLogo picture={"/LI-In-Bug.png"} link={"https://www.linkedin.com/in/jake-rawal-b67ba2260"} />
+            <ClickableLogo picture={"logos/github-mark-white.png"} link={"https://github.com/Jakerpppp"} /> 
+            <ClickableLogo picture={"logos/LI-In-Bug.png"} link={"https://www.linkedin.com/in/jake-rawal-b67ba2260"} />
         </div>
         </footer>
     )
