@@ -1,30 +1,35 @@
-import './navbar.css'
-import hackedEffect from './hacked_effect';
 import React, { useEffect } from 'react';
-
+import { Link, animateScroll as scroll } from 'react-scroll';
+import './navbar.css';
+import hackedEffect from './hacked_effect';
 
 function Navbar() {
 
+  useEffect(() => {
+    const links = document.querySelectorAll('.hoverEffect');
 
-    useEffect(() => {
-        const links = document.querySelectorAll('.hoverEffect');
-    
-        links.forEach(link => {
-          hackedEffect(link);
-        });
-      }, []);
+    links.forEach(link => {
+      hackedEffect(link);
+    });
+  }, []);
 
-    return (
-      <div className="physicalNavbar">
-        <div className="Navbar">
-          <div className="navLinks d-flex justify-content-center">
-            <a href="#" className="hoverEffect home-link">HOME</a>
-            <a href="#" className="hoverEffect project-link">PROJECTS</a>
-            <a href="#" className="hoverEffect contact-link">CONTACT</a>
-          </div>
+  return (
+    <div className="physicalNavbar">
+      <div className="Navbar">
+        <div className="navLinks d-flex justify-content-center">
+          <Link to="home-section" smooth={true} duration={500} className="hoverEffect home-link">
+            HOME
+          </Link>
+          <Link to="projects-section" smooth={true} duration={500} className="hoverEffect project-link">
+            PROJECTS
+          </Link>
+          <Link to="contact-section" smooth={true} duration={500} className="hoverEffect contact-link">
+            CONTACT
+          </Link>
         </div>
       </div>
-    );
-  }
-  
-  export default Navbar;
+    </div>
+  );
+}
+
+export default Navbar;

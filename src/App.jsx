@@ -12,13 +12,19 @@ function App() {
       <Navbar />
       <div className="container">
         <div className="home-content">
+          <section id='home-section'>
           <Home />
+          </section>
         </div>
       </div>
         <div className="projects-content">
+          <section id='projects-section'>
           <Projects />
+          </section>
         </div>
+      <section id='contact-section'>
       <Footer />
+      </section>
     </>
   );
 }
