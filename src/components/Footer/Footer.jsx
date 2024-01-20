@@ -18,7 +18,7 @@ function Footer() {
     return(
         <footer className="footer-container">
         <h1 className="footer-effect">Contact Me!</h1>
-        <h2>jake.rawal3@gmail.com</h2>
+        <a className='text-style' href="mailto:jake.rawal3@gmail.com">jake.rawal3@gmail.com</a>
         <div>
             <ClickableLogo picture={"/github-mark-white.png"} link={"https://github.com/Jakerpppp"} /> 
             <ClickableLogo picture={"/LI-In-Bug.png"} link={"https://www.linkedin.com/in/jake-rawal-b67ba2260"} />
