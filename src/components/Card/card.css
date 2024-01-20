@@ -67,6 +67,10 @@
     outline-offset: 1px;
   }
 
+/* card.css */
+
+/* ... Existing styles ... */
+
 .text-screen {
   position: fixed;
   top: 0;
@@ -79,10 +83,48 @@
   align-items: center;
   color: #fff;
   z-index: 1000;
-
-  h2,
-  p {
-    text-align: center;
-  }
 }
+
+.text-screen-content {
+  max-width: 100vw;
+  padding: 20px;
+  background-color: #333;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.text-screen-title {
+  font-size: 80px;
+  margin-bottom: 16px;
+}
+
+.text-screen-button {
+  width: 50px; /* Adjust the size as needed */
+  height: 50px;
+  margin: 0 10px;
+}
+
+.tech-used {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.tech-used img {
+  max-width: 50px; /* Adjust the size as needed */
+  margin: 0 5px;
+}
+
+.tech-used-text {
+  font-size: 40px;
+  color: #ccc;
+  margin-bottom: 16px;
+}
+
+.long-description {
+  font-size: 16px;
+  color: #ccc;
+}
+
   
