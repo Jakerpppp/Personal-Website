@@ -9,4 +9,9 @@
     box-shadow: 0 0 20px yellow; /* Red glow effect */
     color: white; /* Text color */
   }
+
+  .footer-effect:hover {
+    color: white;
+    text-decoration: underline;
+  }
   

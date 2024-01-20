@@ -1,6 +1,7 @@
 import './Home.css'
 
 function Home() {
+    
     return (
         <>
         <div id='prize'>

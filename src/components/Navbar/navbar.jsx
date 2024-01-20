@@ -1,17 +1,8 @@
 import React, { useEffect } from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
 import './navbar.css';
-import hackedEffect from './hacked_effect';
 
 function Navbar() {
-
-  useEffect(() => {
-    const links = document.querySelectorAll('.hoverEffect');
-
-    links.forEach(link => {
-      hackedEffect(link);
-    });
-  }, []);
 
   return (
     <div className="physicalNavbar">
