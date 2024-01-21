@@ -96,60 +96,32 @@ function Projects() {
             <Card 
                 image={"images/sudoku.png"} 
                 title={"Sudoku Number Sets Solver"} 
+                short_description={"Countdown Solver developed in C++ and with RPN"}
+                logo1pic={"logos/github-mark-white.png"}
+                img1={"tech/cpp.png"}
+                techUsed={'Repository Coming Soon - Made from November - Decemeber 2023'}
+                long_description={
+                    "This C++ project provides a solver for the 9x9 NumberSets puzzle, a challenging variation of Sudoku. The solver is designed to efficiently find solutions for 9x9 grids with added complexity, making it nearly instantaneous for all examples including extra difficulty boards. Implmented using efficient Backtracking algorithms. Number-Sets is a more difficult version of Suduko, so the challenge was determining how to use Dynamic Programming "
+                }/>
+            <Card 
+                image={"images/countdown.png"} 
+                title={"Countdown Game"} 
                 short_description={"Sudoku Number Sets Solver developed in C++ and with Dynamic Programming"}
                 logo1pic={"logos/github-mark-white.png"}
                 img1={"tech/cpp.png"}
                 techUsed={'Repository Coming Soon - Made from November - Decemeber 2023'}
                 long_description={
-                    "This C++ project provides a solver for the 9x9 NumberSets puzzle, a challenging variation of Sudoku and . The solver is designed to efficiently find solutions for 9x9 grids with added complexity, making it nearly instantaneous for all examples including extra difficulty boards. Implmented using efficient Backtracking algorithms. Number-Sets is a more difficult version of Suduko, so the challenge was determining how to use Dynamic Programming "
+                    "This C++ project provides a solver for Countdown problems, inspired by the British TV show. The solver uses RPN to determine if it's possible to reach a target number by applying basic arithmetic operations (+, -, *, /) to a set of given numbers. Given a set of numbers and a target, the solver determines if it's possible to reach the target using the provided numbers and basic arithmetic operations. ntermediate results and operands are represented  and evaluated using RPN. Efficiency was key here, as without a fast algorithm it could take a less advanced code a lot of time to find the solutions, so I set myself the challenge of improving the performance of the algoritms used."
                 }/>
             <Card 
-                image={"logos/github-mark-white.png"} 
-                title={"W"} 
-                short_description={"A Website developed in React to showcase my Coding Projects"}
+                image={"images/dynamic.png"} 
+                title={"String Processing"} 
+                short_description={"Dynamic Programming used to determine the lowest cost for processing a string, developed in C++"}
                 logo1pic={"logos/github-mark-white.png"}
-                logo1link={"https://www.google.com"}
-                img1={"logos/github-mark-white.png"}
-                img2={"logos/github-mark-white.png"}
-                techUsed={'I used all the Tech in the entire world'}
+                img1={"tech/cpp.png"}
+                techUsed={'Repository Coming Soon - Made from November - Decemeber 2023'}
                 long_description={
-                    "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis " +
-                    "praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias " +
-                    "excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui " +
-                    "officia deserunt mollitia animi, id est laborum et dolorum fuga." +
-                    "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, " +
-                    "cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod " +
-                    "maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor " +
-                    "repellendus. " +
-                    "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus " +
-                    "saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. " +
-                    "Itque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis " +
-                    "voluptatibus maiores alias consequatur aut perferendis doloribus asperiores " +
-                    "repellat"
-                }/>
-            <Card 
-                image={"logos/github-mark-white.png"} 
-                title={"W"} 
-                short_description={"A Website developed in React to showcase my Coding Projects"}
-                logo1pic={"logos/github-mark-white.png"}
-                logo1link={"https://www.google.com"}
-                img1={"logos/github-mark-white.png"}
-                img2={"logos/github-mark-white.png"}
-                techUsed={'I used all the Tech in the entire world'}
-                long_description={
-                    "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis " +
-                    "praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias " +
-                    "excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui " +
-                    "officia deserunt mollitia animi, id est laborum et dolorum fuga." +
-                    "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, " +
-                    "cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod " +
-                    "maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor " +
-                    "repellendus. " +
-                    "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus " +
-                    "saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. " +
-                    "Itque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis " +
-                    "voluptatibus maiores alias consequatur aut perferendis doloribus asperiores " +
-                    "repellat"
+                    "This C++ project provides a highly efficient String-Constructor capable of processing strings of up to 50,000 characters in less than 10 seconds. The String-Constructor is designed to recreate a target string using the append and clone operations with specified costs. The goal is to find the most cost-effective way to reconstruct the target string by strategically choosing between character append and substring cloning. he project leverages Dynamic Programming and Backtracking algorithms to efficiently explore and optimize the reconstruction process."
                 }/>
 
             {/* Ros Project */}
