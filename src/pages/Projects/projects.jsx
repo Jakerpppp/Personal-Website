@@ -47,7 +47,7 @@ function Projects() {
                 img2={"tech/django-python-logo.png"}
                 img3={"tech/html5.png"}
                 img4={"tech/css3.png"}
-                techUsed={'Repository Coming Soon - Made from November - Decemeber 2023'}
+                techUsed={'Repository Coming Soon - Made from November to Decemeber 2023'}
                 long_description={
                     "Made in Collaboration with Boonyawat Ariyawatku, Carlos De la Puente, Emre Ozbek and Raj Mohammad. This Project was a group Project using Python Django as the backend. We created a Website where users could create accounts and create teams with other members of the site, which in turn would let them create tasks and assign these tasks to other team mates. The Website included many additional features such as notifications and a gamification element to encourage Task Completion for all users. The challenge in this Task waas working effectively in a Team of People who had never worked together before, while maintaining efficient Software Development technciques to produce a successful outcome for all involved."
                 }/>
@@ -81,7 +81,7 @@ function Projects() {
                 img1={"tech/scala.png"}
                 techUsed={'Repository Coming Soon - Made in December 2023'}
                 long_description={
-                    "This Scala project provides both an interpreter and a compiler for the Brainf**k programming language. Bf is an esoteric programming language known for its minimalistic design, consisting of a small set of commands. The interpreter executes bf programs directly. The compiler compiles Brainf**k programs into an intermediate representation for execution. Scala was the choice for this project because as it is a functional programming language I utilised the pattern matching and speed of the immutable recursive functions to compile a bf file into a much smaller file. I showed the progress of gradually improving the compile process to increase the speed of which bf files can be run. Brainfuck consists of a simple set of commands, each represented by a single character. The commands include >, <, +, -, [, ], ., and , The language operates on a memory tape with cells, and the commands manipulate the tape and its contents. "
+                    "This Scala project provides both an interpreter and a compiler for the Brainf**k programming language. Bf is an esoteric programming language known for its minimalistic design, consisting of a small set of commands. The interpreter executes bf programs directly. The compiler compiles Brainf**k programs into an intermediate representation for execution. Scala was the choice for this project because as it is a functional programming language I utilised the pattern matching and speed of the immutable recursive functions to compile a bf file into a much smaller file. I showed the progress of gradually improving the compile process to increase the speed of which bf files can be run. Brainf**k consists of a simple set of commands, each represented by a single character. The commands include >, <, +, -, [, ], ., and , The language operates on a memory tape with cells, and the commands manipulate the tape and its contents. "
                 }/>
             <Card 
                 image={"images/regex.jpg"} 
@@ -115,7 +115,7 @@ function Projects() {
                 short_description={"Countdown Solver developed in C++ and with RPN"}
                 logo1pic={"logos/github-mark-white.png"}
                 img1={"tech/cpp.png"}
-                techUsed={'Repository Coming Soon - Made from October - November 2023'}
+                techUsed={'Repository Coming Soon - Made from October to November 2023'}
                 long_description={
                     "This C++ project provides a solver for the 9x9 NumberSets puzzle, a challenging variation of Sudoku. The solver is designed to efficiently find solutions for 9x9 grids with added complexity, making it nearly instantaneous for all examples including extra difficulty boards. Implmented using efficient Backtracking algorithms. Number-Sets is a more difficult version of Suduko, so the challenge was determining how to use Dynamic Programming "
                 }/>
@@ -125,7 +125,7 @@ function Projects() {
                 short_description={"Sudoku Number Sets Solver developed in C++ and with Dynamic Programming"}
                 logo1pic={"logos/github-mark-white.png"}
                 img1={"tech/cpp.png"}
-                techUsed={'Repository Coming Soon - Made from October - November 2023'}
+                techUsed={'Repository Coming Soon - Made from October to November 2023'}
                 long_description={
                     "This C++ project provides a solver for Countdown problems, inspired by the British TV show. The solver uses RPN to determine if it's possible to reach a target number by applying basic arithmetic operations (+, -, *, /) to a set of given numbers. Given a set of numbers and a target, the solver determines if it's possible to reach the target using the provided numbers and basic arithmetic operations. ntermediate results and operands are represented  and evaluated using RPN. Efficiency was key here, as without a fast algorithm it could take a less advanced code a lot of time to find the solutions, so I set myself the challenge of improving the performance of the algoritms used."
                 }/>
@@ -135,7 +135,7 @@ function Projects() {
                 short_description={"Dynamic Programming used to determine the lowest cost for processing a string, developed in C++"}
                 logo1pic={"logos/github-mark-white.png"}
                 img1={"tech/cpp.png"}
-                techUsed={'Repository Coming Soon - Made from October - November 2023'}
+                techUsed={'Repository Coming Soon - Made from October to November 2023'}
                 long_description={
                     "This C++ project provides a highly efficient String-Constructor capable of processing strings of up to 50,000 characters in less than 10 seconds. The String-Constructor is designed to recreate a target string using the append and clone operations with specified costs. The goal is to find the most cost-effective way to reconstruct the target string by strategically choosing between character append and substring cloning. he project leverages Dynamic Programming and Backtracking algorithms to efficiently explore and optimize the reconstruction process."
                 }/>

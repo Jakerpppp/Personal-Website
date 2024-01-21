@@ -13,6 +13,7 @@
   will-change: filter;
   transition: filter 300ms;
   filter: drop-shadow(0 0);
+  cursor: pointer;
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em red);
