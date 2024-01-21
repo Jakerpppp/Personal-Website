@@ -14,7 +14,7 @@
 }
 
 .card-image {
-    width: 400px;
+    width: 350px;
     height: 200px;
     object-fit: contain !important;
     border: red;
@@ -98,7 +98,7 @@
 }
 
 .text-screen-title {
-  font-size: 80px;
+  font-size: 60px;
   margin-bottom: 16px;
 }
 
