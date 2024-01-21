@@ -28,7 +28,7 @@ function Projects() {
                 img1={"tech/react.svg"}
                 img2={"tech/javascript.png"}
                 img3={"tech/html5.png"}
-                im4={"css3.png"}
+                img4={"tech/css3.png"}
                 techUsed={'Repository Coming Soon - Made in January 2024'}
                 long_description={
                     "This project is a showcase of my passion for learning new frameworks and coding languages, specifically focusing on my first dive into React and JavaScript. As of January 2024, the website serves as a portfolio, displaying information about various projects I've completed. It's not just a portfolio, but a reflection of my journey in the coding world. A detailed place to store all the information about each of my projects throughout the years. "
@@ -45,9 +45,11 @@ function Projects() {
                 logo2link={"https://jakerpppp.pythonanywhere.com"}
                 img1={"tech/python.png"}
                 img2={"tech/django-python-logo.png"}
+                img3={"tech/html5.png"}
+                img4={"tech/css3.png"}
                 techUsed={'Repository Coming Soon - Made from November - Decemeber 2023'}
                 long_description={
-                    "Made in Collaboration with Boonyawat Ariyawatku, Carlos De la Puente, Emre Ozbek, Raj Mohammad. This Project was a group Project using Python Django as the backend. We created a Website where users could create accounts and create teams with other members of the site, which in turn would let them create tasks and assign these tasks to other team mates. The Website included many additional features such as notifications and a gamification element to encourage Task Completion for all users. The challenge in this Task waas working effectively in a Team of People who had never worked together before, while maintaining efficient Software Development technciques to produce a successful outcome for all involved."
+                    "Made in Collaboration with Boonyawat Ariyawatku, Carlos De la Puente, Emre Ozbek and Raj Mohammad. This Project was a group Project using Python Django as the backend. We created a Website where users could create accounts and create teams with other members of the site, which in turn would let them create tasks and assign these tasks to other team mates. The Website included many additional features such as notifications and a gamification element to encourage Task Completion for all users. The challenge in this Task waas working effectively in a Team of People who had never worked together before, while maintaining efficient Software Development technciques to produce a successful outcome for all involved."
                 }/>
             
             {/* Scala Projects */}
@@ -91,6 +93,20 @@ function Projects() {
                 long_description={
                     "This Scala project implements a regular expression pattern matcher based on the Brzozowski derivative. The implementation covers checking if the regular expression can match an empty string, calculating the derivative of a regular expression, simplifying regular expressions, and calculating the size of the regular expression tree. It checks if the given regular expression can match an empty string. he derivative of a regular expression is calculated using the Brzozowski derivative. Regular expressions can be simplified for more efficient matching and also The size of the regular expression tree is calculated."
                 }/>
+
+            {/* Ros Project */}
+            <Card 
+                image={"images/turtlebot.png"} 
+                title={"Robotics Project - Patrol Robot with AI"} 
+                short_description={"A Website developed using ROS and Visual Recognition Artifical Intelligence"}
+                logo1pic={"logos/github-mark-white.png"}
+                img1={"tech/python.png"}
+                img2={"tech/ros.jpg"}
+                img3={"tech/linux.png"}
+                techUsed={'Repository Coming Soon - Made in November 2023'}
+                long_description={
+                    "A Project Developed in Python using Rospy and the Robotic Operating System (ROS). Features include autonomous patrolling between rooms using the turtlebot3 cost mapping A* Heuristic Search, Visual Recognition Artificial Intelligence using YOLO (You Only Look Once) to detect the presence of humans, animals and obejcts in different rooms and then uses Text-To-Speech to report this. "
+                }/>
             
             {/* C++ Projects */}
             <Card 
@@ -99,7 +115,7 @@ function Projects() {
                 short_description={"Countdown Solver developed in C++ and with RPN"}
                 logo1pic={"logos/github-mark-white.png"}
                 img1={"tech/cpp.png"}
-                techUsed={'Repository Coming Soon - Made from November - Decemeber 2023'}
+                techUsed={'Repository Coming Soon - Made from October - November 2023'}
                 long_description={
                     "This C++ project provides a solver for the 9x9 NumberSets puzzle, a challenging variation of Sudoku. The solver is designed to efficiently find solutions for 9x9 grids with added complexity, making it nearly instantaneous for all examples including extra difficulty boards. Implmented using efficient Backtracking algorithms. Number-Sets is a more difficult version of Suduko, so the challenge was determining how to use Dynamic Programming "
                 }/>
@@ -109,7 +125,7 @@ function Projects() {
                 short_description={"Sudoku Number Sets Solver developed in C++ and with Dynamic Programming"}
                 logo1pic={"logos/github-mark-white.png"}
                 img1={"tech/cpp.png"}
-                techUsed={'Repository Coming Soon - Made from November - Decemeber 2023'}
+                techUsed={'Repository Coming Soon - Made from October - November 2023'}
                 long_description={
                     "This C++ project provides a solver for Countdown problems, inspired by the British TV show. The solver uses RPN to determine if it's possible to reach a target number by applying basic arithmetic operations (+, -, *, /) to a set of given numbers. Given a set of numbers and a target, the solver determines if it's possible to reach the target using the provided numbers and basic arithmetic operations. ntermediate results and operands are represented  and evaluated using RPN. Efficiency was key here, as without a fast algorithm it could take a less advanced code a lot of time to find the solutions, so I set myself the challenge of improving the performance of the algoritms used."
                 }/>
@@ -119,137 +135,42 @@ function Projects() {
                 short_description={"Dynamic Programming used to determine the lowest cost for processing a string, developed in C++"}
                 logo1pic={"logos/github-mark-white.png"}
                 img1={"tech/cpp.png"}
-                techUsed={'Repository Coming Soon - Made from November - Decemeber 2023'}
+                techUsed={'Repository Coming Soon - Made from October - November 2023'}
                 long_description={
                     "This C++ project provides a highly efficient String-Constructor capable of processing strings of up to 50,000 characters in less than 10 seconds. The String-Constructor is designed to recreate a target string using the append and clone operations with specified costs. The goal is to find the most cost-effective way to reconstruct the target string by strategically choosing between character append and substring cloning. he project leverages Dynamic Programming and Backtracking algorithms to efficiently explore and optimize the reconstruction process."
-                }/>
-
-            {/* Ros Project */}
-            <Card 
-                image={"logos/github-mark-white.png"} 
-                title={"W"} 
-                short_description={"A Website developed in React to showcase my Coding Projects"}
-                logo1pic={"logos/github-mark-white.png"}
-                logo1link={"https://www.google.com"}
-                img1={"logos/github-mark-white.png"}
-                img2={"logos/github-mark-white.png"}
-                techUsed={'I used all the Tech in the entire world'}
-                long_description={
-                    "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis " +
-                    "praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias " +
-                    "excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui " +
-                    "officia deserunt mollitia animi, id est laborum et dolorum fuga." +
-                    "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, " +
-                    "cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod " +
-                    "maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor " +
-                    "repellendus. " +
-                    "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus " +
-                    "saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. " +
-                    "Itque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis " +
-                    "voluptatibus maiores alias consequatur aut perferendis doloribus asperiores " +
-                    "repellat"
                 }/>
             
             {/* Java Projects */}
             <Card 
-                image={"logos/github-mark-white.png"} 
-                title={"W"} 
-                short_description={"A Website developed in React to showcase my Coding Projects"}
-                logo1pic={"logos/github-mark-white.png"}
-                logo1link={"https://www.google.com"}
-                img1={"logos/github-mark-white.png"}
-                img2={"logos/github-mark-white.png"}
-                techUsed={'I used all the Tech in the entire world'}
+                image={"images/covid-viewer.png"} 
+                title={"Covid Data Viewer GUI - Group Project"} 
+                short_description={"Covid-19 Data Viewer Project developed using JavaFX"}
+                img1={"tech/java.png"}
+                img2={"tech/javafx.png"}
+                techUsed={'Made in March 2023'}
                 long_description={
-                    "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis " +
-                    "praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias " +
-                    "excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui " +
-                    "officia deserunt mollitia animi, id est laborum et dolorum fuga." +
-                    "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, " +
-                    "cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod " +
-                    "maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor " +
-                    "repellendus. " +
-                    "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus " +
-                    "saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. " +
-                    "Itque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis " +
-                    "voluptatibus maiores alias consequatur aut perferendis doloribus asperiores " +
-                    "repellat"
+                    "Made in Collaboration with Mohaned Abdulmahmood, Emily Lazenby and Lorenzo Cataldi. This Java project processed large data and displayed statistics to do with the Covid-19 effect in the London Boroughs. The GUI was developed using JavaFX."
                 }/>
             <Card 
-                image={"logos/github-mark-white.png"} 
-                title={"W"} 
-                short_description={"A Website developed in React to showcase my Coding Projects"}
-                logo1pic={"logos/github-mark-white.png"}
-                logo1link={"https://www.google.com"}
-                img1={"logos/github-mark-white.png"}
-                img2={"logos/github-mark-white.png"}
-                techUsed={'I used all the Tech in the entire world'}
+                image={"images/simulation.png"} 
+                title={"Predator and Prey Simulation - Pair Programming"} 
+                short_description={"Java Project inspired by Game of Life Simulation"}
+                img1={"tech/java.png"}
+                techUsed={'Made in February 2023'}
                 long_description={
-                    "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis " +
-                    "praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias " +
-                    "excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui " +
-                    "officia deserunt mollitia animi, id est laborum et dolorum fuga." +
-                    "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, " +
-                    "cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod " +
-                    "maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor " +
-                    "repellendus. " +
-                    "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus " +
-                    "saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. " +
-                    "Itque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis " +
-                    "voluptatibus maiores alias consequatur aut perferendis doloribus asperiores " +
-                    "repellat"
-                }/>
-            <Card 
-                image={"logos/github-mark-white.png"} 
-                title={"W"} 
-                short_description={"A Website developed in React to showcase my Coding Projects"}
-                logo1pic={"logos/github-mark-white.png"}
-                logo1link={"https://www.google.com"}
-                img1={"logos/github-mark-white.png"}
-                img2={"logos/github-mark-white.png"}
-                techUsed={'I used all the Tech in the entire world'}
-                long_description={
-                    "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis " +
-                    "praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias " +
-                    "excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui " +
-                    "officia deserunt mollitia animi, id est laborum et dolorum fuga." +
-                    "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, " +
-                    "cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod " +
-                    "maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor " +
-                    "repellendus. " +
-                    "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus " +
-                    "saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. " +
-                    "Itque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis " +
-                    "voluptatibus maiores alias consequatur aut perferendis doloribus asperiores " +
-                    "repellat"
+                    "Made in Collaboration with Mohaned Abdulmahmood. This Java Project is inspired by the Game of Life Simulation. We extended the simulation to add more relationships and simulations to the original simulation, such as diseases and anitbiotics, predators and preys. Each Simulation (Cell) had its own unique simulation and interaction with every other type of cell, leading to a dynamic different simulation every single time the program is ran"
                 }/>
             
             {/* Python A-Level Project */}
             <Card 
-                image={"logos/github-mark-white.png"} 
-                title={"W"} 
-                short_description={"A Website developed in React to showcase my Coding Projects"}
-                logo1pic={"logos/github-mark-white.png"}
-                logo1link={"https://www.google.com"}
-                img1={"logos/github-mark-white.png"}
-                img2={"logos/github-mark-white.png"}
-                techUsed={'I used all the Tech in the entire world'}
+                image={"images/chess.png"} 
+                title={"Chess Game using Python Tkinter with Basic AI - For a Client"} 
+                short_description={"Chess Project with 4 Modes - Play, Computer AI, Analysis, Puzzles"}
+                img1={"tech/python.png"}
+                techUsed={'Made in 2022'}
                 long_description={
-                    "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis " +
-                    "praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias " +
-                    "excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui " +
-                    "officia deserunt mollitia animi, id est laborum et dolorum fuga." +
-                    "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, " +
-                    "cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod " +
-                    "maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor " +
-                    "repellendus. " +
-                    "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus " +
-                    "saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. " +
-                    "Itque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis " +
-                    "voluptatibus maiores alias consequatur aut perferendis doloribus asperiores " +
-                    "repellat"
+                    "Python Project of a Chess Game using Tkinter for the GUI. Created for a Client with Requirements Elicitation and Interviews to adhere to requirements. A cluenThere are 4 different Modes: Play, Computer, Analysis, Puzzles. Play lets you go against another human player. Computer lets you playa against an AI with 3 different difficulties, for inexperience to experienced players. Analysis lets users create their own games and replay old games they've saved. They can place any piece anywhere as many times as they like to play their own custom games if they wanted to. Finally, Puzzles allowed the user to load in a puzzle and have to follow the chess puzzle steps until they got it correct."
                 }/>
-
         </div>
         </>
     )
