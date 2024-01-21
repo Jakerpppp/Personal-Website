@@ -132,6 +132,8 @@
 
 @media screen and (max-width: 600px) {
   .card {
+    max-width: 75vw;
+    max-height: 25vh;
     margin-bottom: 10px;
 }
 
@@ -153,8 +155,8 @@
 }
 
   .card-image {
-    max-height: 100vh;
-    max-width: 300px;
+    /* max-height: 100vh;
+    max-width: 300px; */
   }
 
   .text-screen-title {
