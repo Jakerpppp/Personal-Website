@@ -19,6 +19,7 @@
 
 .navLinks {
     display: inline-block;
+    text-align: center;
 }
 
 .navLinks a{
@@ -70,7 +71,8 @@
     .navLinks {
         display: flex;
         flex-direction: column;
-        transform: translateX(-2dvw);
+        transform: translateX(-6.5dvw);
+        text-align: center;
     }
     .navLinks a {
         width: 100%;

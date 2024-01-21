@@ -135,6 +135,7 @@
     max-width: 75vw;
     max-height: 25vh;
     margin-bottom: 10px;
+    transform: translateX(-4dvw);
 }
 
 .card-content {
@@ -142,21 +143,20 @@
 }
 
 .card-title {
-    font-size: 18px;
+    font-size: 0px;
 }
 
 .card-description {
-    font-size: 14px;
+    font-size: 0px;
 }
 
 .card-button {
-    font-size: 14px;
-    padding: 10px;
+    font-size: 0px;
+    padding: 0px;
 }
 
   .card-image {
-    /* max-height: 100vh;
-    max-width: 300px; */
+    object-fit: fill !important;
   }
 
   .text-screen-title {
@@ -173,6 +173,10 @@
 
   .long-description {
       font-size: 12px; /* Adjust as needed */
+  }
+
+  .custom-effect {
+    transform: translateX(-4dvw);
   }
 }
 
