@@ -93,3 +93,28 @@
     );
     z-index: 3;
   }
+
+  @media screen and (max-width: 500px) {
+    #prize {
+      top: 100px;
+      padding: 3.5rem; /* Adjusted padding for better mobile fit */
+      width: 90vw;
+    }
+  
+    #prize-text {
+      font-size: 2rem; /* Adjusted font-size for better mobile fit */
+    }
+  
+    #prize-text > .digit {
+      width: 6rem; /* Adjusted width for better mobile fit */
+    }
+  
+    #prize-text > .digit > .digit-track {
+      gap: 0.5rem; /* Adjusted gap for better mobile fit */
+      font-size: 1.5rem; /* Adjusted font-size for better mobile fit */
+    }
+  
+    #prize-lines {
+      animation: pan-lines 180s infinite linear;
+    }
+  }
