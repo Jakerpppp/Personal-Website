@@ -16,7 +16,7 @@
 .card-image {
     width: 350px;
     height: 200px;
-    object-fit: contain !important;
+    object-fit: fill !important;
     border: red;
 }
 

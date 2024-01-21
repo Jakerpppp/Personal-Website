@@ -52,126 +52,56 @@ function Projects() {
             
             {/* Scala Projects */}
             <Card 
-                image={"logos/github-mark-white.png"} 
-                title={"W"} 
-                short_description={"A Website developed in React to showcase my Coding Projects"}
+                image={"images/scala-image.jpg"} 
+                title={"Evil Wordle"} 
+                short_description={"Evil Wordle Functionality Coded in Functional Programming Language Scala"}
                 logo1pic={"logos/github-mark-white.png"}
-                logo1link={"https://www.google.com"}
-                img1={"logos/github-mark-white.png"}
-                img2={"logos/github-mark-white.png"}
-                techUsed={'I used all the Tech in the entire world'}
+                img1={"tech/scala.png"}
+                techUsed={'Repository Coming Soon - Made in December 2023'}
                 long_description={
-                    "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis " +
-                    "praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias " +
-                    "excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui " +
-                    "officia deserunt mollitia animi, id est laborum et dolorum fuga." +
-                    "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, " +
-                    "cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod " +
-                    "maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor " +
-                    "repellendus. " +
-                    "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus " +
-                    "saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. " +
-                    "Itque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis " +
-                    "voluptatibus maiores alias consequatur aut perferendis doloribus asperiores " +
-                    "repellat"
+                    "Evil Wordle is similar to normal Wordle, but with extra calculations to figure out the most evil word to set as the word after the user has made their first guess. Using Scala, this was implemented effectively using mmutable Design, the project emphasizes immutability, ensuring that data structures and states are handled in a purely functional manner, and I applied functional programming concepts, such as pure recursive backtracking, to enhance the maintainability of the code."
                 }/>
             <Card 
-                image={"logos/github-mark-white.png"} 
-                title={"W"} 
-                short_description={"A Website developed in React to showcase my Coding Projects"}
+                image={"images/shogun.png"} 
+                title={"Shogun"} 
+                short_description={"Shogun Game Functionality Coded in Functional Programming Language Scala"}
                 logo1pic={"logos/github-mark-white.png"}
-                logo1link={"https://www.google.com"}
-                img1={"logos/github-mark-white.png"}
-                img2={"logos/github-mark-white.png"}
-                techUsed={'I used all the Tech in the entire world'}
+                img1={"tech/scala.png"}
+                techUsed={'Repository Coming Soon - Made in December 2023'}
                 long_description={
-                    "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis " +
-                    "praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias " +
-                    "excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui " +
-                    "officia deserunt mollitia animi, id est laborum et dolorum fuga." +
-                    "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, " +
-                    "cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod " +
-                    "maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor " +
-                    "repellendus. " +
-                    "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus " +
-                    "saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. " +
-                    "Itque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis " +
-                    "voluptatibus maiores alias consequatur aut perferendis doloribus asperiores " +
-                    "repellat"
+                    "This Scala project brings to life the classic game of Shogun, where strategic moves and careful planning are key. The implementation includes determining all possible moves for each piece and ensuring the legality of those moves, with special consideration given to the king to prevent moves that put it in check or lead to capture."
                 }/>
             <Card 
-                image={"logos/github-mark-white.png"} 
-                title={"W"} 
-                short_description={"A Website developed in React to showcase my Coding Projects"}
+                image={"images/bf.png"} 
+                title={"Brainf**k Interpreter and Compiler"} 
+                short_description={"A Compiler and Interpreter for the language Brainf**k developed in Scala"}
                 logo1pic={"logos/github-mark-white.png"}
-                logo1link={"https://www.google.com"}
-                img1={"logos/github-mark-white.png"}
-                img2={"logos/github-mark-white.png"}
-                techUsed={'I used all the Tech in the entire world'}
+                img1={"tech/scala.png"}
+                techUsed={'Repository Coming Soon - Made in December 2023'}
                 long_description={
-                    "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis " +
-                    "praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias " +
-                    "excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui " +
-                    "officia deserunt mollitia animi, id est laborum et dolorum fuga." +
-                    "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, " +
-                    "cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod " +
-                    "maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor " +
-                    "repellendus. " +
-                    "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus " +
-                    "saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. " +
-                    "Itque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis " +
-                    "voluptatibus maiores alias consequatur aut perferendis doloribus asperiores " +
-                    "repellat"
+                    "This Scala project provides both an interpreter and a compiler for the Brainf**k programming language. Bf is an esoteric programming language known for its minimalistic design, consisting of a small set of commands. The interpreter executes bf programs directly. The compiler compiles Brainf**k programs into an intermediate representation for execution. Scala was the choice for this project because as it is a functional programming language I utilised the pattern matching and speed of the immutable recursive functions to compile a bf file into a much smaller file. I showed the progress of gradually improving the compile process to increase the speed of which bf files can be run. Brainfuck consists of a simple set of commands, each represented by a single character. The commands include >, <, +, -, [, ], ., and , The language operates on a memory tape with cells, and the commands manipulate the tape and its contents. "
                 }/>
             <Card 
-                image={"logos/github-mark-white.png"} 
-                title={"W"} 
-                short_description={"A Website developed in React to showcase my Coding Projects"}
+                image={"images/regex.jpg"} 
+                title={"Brzozowski Regular Expression Pattern Matcher"} 
+                short_description={"Brzozowski Regular Expression Pattern Matcher developed in Scala!"}
                 logo1pic={"logos/github-mark-white.png"}
-                logo1link={"https://www.google.com"}
-                img1={"logos/github-mark-white.png"}
-                img2={"logos/github-mark-white.png"}
-                techUsed={'I used all the Tech in the entire world'}
+                img1={"tech/scala.png"}
+                techUsed={'Repository Coming Soon - Made in December 2023'}
                 long_description={
-                    "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis " +
-                    "praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias " +
-                    "excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui " +
-                    "officia deserunt mollitia animi, id est laborum et dolorum fuga." +
-                    "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, " +
-                    "cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod " +
-                    "maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor " +
-                    "repellendus. " +
-                    "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus " +
-                    "saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. " +
-                    "Itque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis " +
-                    "voluptatibus maiores alias consequatur aut perferendis doloribus asperiores " +
-                    "repellat"
+                    "This Scala project implements a regular expression pattern matcher based on the Brzozowski derivative. The implementation covers checking if the regular expression can match an empty string, calculating the derivative of a regular expression, simplifying regular expressions, and calculating the size of the regular expression tree. It checks if the given regular expression can match an empty string. he derivative of a regular expression is calculated using the Brzozowski derivative. Regular expressions can be simplified for more efficient matching and also The size of the regular expression tree is calculated."
                 }/>
             
             {/* C++ Projects */}
             <Card 
-                image={"logos/github-mark-white.png"} 
-                title={"W"} 
-                short_description={"A Website developed in React to showcase my Coding Projects"}
+                image={"images/sudoku.png"} 
+                title={"Sudoku Number Sets Solver"} 
+                short_description={"Sudoku Number Sets Solver developed in C++ and with Dynamic Programming"}
                 logo1pic={"logos/github-mark-white.png"}
-                logo1link={"https://www.google.com"}
-                img1={"logos/github-mark-white.png"}
-                img2={"logos/github-mark-white.png"}
-                techUsed={'I used all the Tech in the entire world'}
+                img1={"tech/cpp.png"}
+                techUsed={'Repository Coming Soon - Made from November - Decemeber 2023'}
                 long_description={
-                    "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis " +
-                    "praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias " +
-                    "excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui " +
-                    "officia deserunt mollitia animi, id est laborum et dolorum fuga." +
-                    "Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, " +
-                    "cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod " +
-                    "maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor " +
-                    "repellendus. " +
-                    "Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus " +
-                    "saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. " +
-                    "Itque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis " +
-                    "voluptatibus maiores alias consequatur aut perferendis doloribus asperiores " +
-                    "repellat"
+                    "This C++ project provides a solver for the 9x9 NumberSets puzzle, a challenging variation of Sudoku and . The solver is designed to efficiently find solutions for 9x9 grids with added complexity, making it nearly instantaneous for all examples including extra difficulty boards. Implmented using efficient Backtracking algorithms. Number-Sets is a more difficult version of Suduko, so the challenge was determining how to use Dynamic Programming "
                 }/>
             <Card 
                 image={"logos/github-mark-white.png"} 
