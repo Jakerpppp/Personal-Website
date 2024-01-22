@@ -16,7 +16,7 @@ function Projects() {
     return (
         <>
         <div style={{ marginTop: '100px' }}>
-        <h1 className='custom-effect'>Projects</h1>
+        <h1 className='custom-effect'>Projects This is a Test to see if changes work</h1>
 
             {/* Project Website */}
             <Card 
