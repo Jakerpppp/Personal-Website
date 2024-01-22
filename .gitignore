@@ -25,9 +25,9 @@ media
 
 # Distribution / packaging
 .Python
-build/
 develop-eggs/
 dist/
+build/
 downloads/
 eggs/
 .eggs/
@@ -81,7 +81,6 @@ instance/
 .scrapy
 
 # Sphinx documentation
-docs/_build/
 
 # PyBuilder
 .pybuilder/
