@@ -49,7 +49,7 @@ function Projects() {
                 img4={"tech/css3.png"}
                 techUsed={'Repository Coming Soon - Made from November to Decemeber 2023'}
                 long_description={
-                    "Made in Collaboration with Boonyawat Ariyawatku, Carlos De la Puente, Emre Ozbek and Raj Mohammad. This Project was a group Project using Python Django as the backend. We created a Website where users could create accounts and create teams with other members of the site, which in turn would let them create tasks and assign these tasks to other team mates. The Website included many additional features such as notifications and a gamification element to encourage Task Completion for all users. The challenge in this Task waas working effectively in a Team of People who had never worked together before, while maintaining efficient Software Development technciques to produce a successful outcome for all involved."
+                    "Made in Collaboration with Boonyawat Ariyawatku, Carlos De la Puente, Emre Ozbek and Raj Mohammad. This Project was a group Project using Python Django as the backend. We created a Website where users could create accounts and create teams with other members of the site, which in turn would let them create tasks and assign these tasks to other team mates. The Website included many additional features such as notifications and a gamification element to encourage Task Completion for all users. The challenge in this Task was working effectively in a Team of People who had never worked together before, while maintaining efficient Software Development technciques to produce a successful outcome for all involved."
                 }/>
             
             {/* Scala Projects */}
@@ -91,7 +91,7 @@ function Projects() {
                 img1={"tech/scala.png"}
                 techUsed={'Repository Coming Soon - Made in December 2023'}
                 long_description={
-                    "This Scala project implements a regular expression pattern matcher based on the Brzozowski derivative. The implementation covers checking if the regular expression can match an empty string, calculating the derivative of a regular expression, simplifying regular expressions, and calculating the size of the regular expression tree. It checks if the given regular expression can match an empty string. he derivative of a regular expression is calculated using the Brzozowski derivative. Regular expressions can be simplified for more efficient matching and also The size of the regular expression tree is calculated."
+                    "This Scala project implements a regular expression pattern matcher based on the Brzozowski derivative. The implementation covers checking if the regular expression can match an empty string, calculating the derivative of a regular expression, simplifying regular expressions, and calculating the size of the regular expression tree. It checks if the given regular expression can match an empty string. The derivative of a regular expression is calculated using the Brzozowski derivative. Regular expressions can be simplified for more efficient matching and also The size of the regular expression tree is calculated."
                 }/>
 
             {/* Ros Project */}
@@ -137,7 +137,7 @@ function Projects() {
                 img1={"tech/cpp.png"}
                 techUsed={'Repository Coming Soon - Made from October to November 2023'}
                 long_description={
-                    "This C++ project provides a highly efficient String-Constructor capable of processing strings of up to 50,000 characters in less than 10 seconds. The String-Constructor is designed to recreate a target string using the append and clone operations with specified costs. The goal is to find the most cost-effective way to reconstruct the target string by strategically choosing between character append and substring cloning. he project leverages Dynamic Programming and Backtracking algorithms to efficiently explore and optimize the reconstruction process."
+                    "This C++ project provides a highly efficient String-Constructor capable of processing strings of up to 50,000 characters in less than 10 seconds. The String-Constructor is designed to recreate a target string using the append and clone operations with specified costs. The goal is to find the most cost-effective way to reconstruct the target string by strategically choosing between character append and substring cloning. The project leverages Dynamic Programming and Backtracking algorithms to efficiently explore and optimize the reconstruction process."
                 }/>
             
             {/* Java Projects */}

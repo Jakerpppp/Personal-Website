@@ -103,7 +103,9 @@
   
     #prize-text {
       padding: 0.25rem;
-      font-size: 2rem; /* Adjusted font-size for better mobile fit */
+      font-size: 4rem; 
+      transform: translateX(-6dvw);
+      line-height: 5rem;
     }
   
     #prize-text > .digit {

@@ -135,11 +135,10 @@
     max-width: 75vw;
     max-height: 25vh;
     margin-bottom: 10px;
-    transform: translateX(-4dvw);
 }
 
 .card-content {
-    padding: 10px;
+    padding: 0px;
 }
 
 .card-title {
@@ -155,16 +154,17 @@
     padding: 0px;
 }
 
-  .card-image {
-    object-fit: fill !important;
-  }
+.card-image {
+  width: 100%; /* Set the width to 100% to take up the whole card */
+  object-fit: cover; /* You can use 'cover' to fill the container and maintain the aspect ratio */
+}
 
   .text-screen-title {
       font-size: 20px; /* Adjust as needed */
   }
 
   .tech-used img {
-      max-width: 20px; /* Adjust as needed */
+      max-width: 30px; /* Adjust as needed */
   }
 
   .tech-used-text {
@@ -174,10 +174,8 @@
   .long-description {
       font-size: 12px; /* Adjust as needed */
   }
-
-  .custom-effect {
-    transform: translateX(-4dvw);
-  }
 }
+
+
 
   
