@@ -24,7 +24,9 @@ function Projects() {
                 title={"Project Portfolio Website"} 
                 short_description={"A Website developed in React to showcase my Coding Projects"}
                 logo1pic={"logos/github-mark-white.png"}
+                logo1link={"https://github.com/Jakerpppp/jakerpppp.github.io"}
                 logo2pic={"logos/link.png"}
+                logo2link={"https://jakerawal.com"}
                 img1={"tech/react.svg"}
                 img2={"tech/javascript.png"}
                 img3={"tech/html5.png"}

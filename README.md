@@ -2,7 +2,7 @@
 
 Welcome to my personal project website! 🚀
 
-## Deployed at: [insert link here]
+## The website is deployed and can be accessed at [jakerawal.com](https://www.jakerawal.com).
 
 This project is a showcase of my passion for learning new frameworks and coding languages, specifically focusing on my first dive into React and JavaScript. As of January 2024, the website serves as a portfolio, displaying information about various projects I've completed. It's not just a portfolio, but a reflection of my journey in the coding world.
 
