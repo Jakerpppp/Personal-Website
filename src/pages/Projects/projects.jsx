@@ -31,7 +31,7 @@ function Projects() {
                 img2={"tech/javascript.png"}
                 img3={"tech/html5.png"}
                 img4={"tech/css3.png"}
-                techUsed={'Repository Coming Soon - Made in January 2024'}
+                techUsed={'Repository and Website Live - Made in January 2024'}
                 long_description={
                     "This project is a showcase of my passion for learning new frameworks and coding languages, specifically focusing on my first dive into React and JavaScript. As of January 2024, the website serves as a portfolio, displaying information about various projects I've completed. It's not just a portfolio, but a reflection of my journey in the coding world. A detailed place to store all the information about each of my projects throughout the years. "
                 }
@@ -102,10 +102,12 @@ function Projects() {
                 title={"Robotics Project - Patrol Robot with AI"} 
                 short_description={"A Website developed using ROS and Visual Recognition Artifical Intelligence"}
                 logo1pic={"logos/github-mark-white.png"}
+                logo2pic={"logos/link.png"}
+                logo2link={"https://youtu.be/glx2Qib2CeE"}
                 img1={"tech/python.png"}
                 img2={"tech/ros.jpg"}
                 img3={"tech/linux.png"}
-                techUsed={'Repository Coming Soon - Made in November 2023'}
+                techUsed={'Repository Coming Soon: YouTube Video Live - Made in November 2023'}
                 long_description={
                     "A Project Developed in Python using Rospy and the Robotic Operating System (ROS). Features include autonomous patrolling between rooms using the turtlebot3 cost mapping A* Heuristic Search, Visual Recognition Artificial Intelligence using YOLO (You Only Look Once) to detect the presence of humans, animals and obejcts in different rooms and then uses Text-To-Speech to report this. "
                 }/>
