@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <div className="physicalNavbar">
       <div className="Navbar">
-        <div className="navLinks d-flex justify-content-center">
+        <div className="navLinks">
           <Link to="home-section" smooth={true} duration={500} className="hoverEffect home-link">
             HOME
           </Link>
