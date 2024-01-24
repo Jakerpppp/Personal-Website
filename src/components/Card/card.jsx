@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './card.css';
 import ClickableLogo from '../ClickableLogo/ClickableLogo';
 
-function Card({image, title, short_description, techUsed, img1, img2, img3, img4, img5, logo1pic, logo1link, logo2pic, logo2link, long_description }) {
+function Card({ image, title, short_description, techUsed, tech_images, logos, children }) {
   const [showTextScreen, setShowTextScreen] = useState(false);
 
   const handleButtonClick = () => {
@@ -28,30 +28,28 @@ function Card({image, title, short_description, techUsed, img1, img2, img3, img4
         <div className="text-screen" onClick={handleCloseTextScreen}>
           <div className="text-screen-content">
             <h2 className="text-screen-title">{title}</h2>
-            
-            {logo1pic && (
-              <ClickableLogo picture={logo1pic} link={logo1link} />
+
+            {logos && (
+              <div className="logos">
+                {logos.map((logo, index) => (
+                  <ClickableLogo key={index} picture={logo.pic} link={logo.link} />
+                ))}
+              </div>
             )}
 
-            {logo2pic && (
-              <ClickableLogo picture={logo2pic} link={logo2link} />
+            {tech_images && (
+              <div className="tech-used">
+                {tech_images.map((img, index) => (
+                  <img key={index} src={img} alt={`Tech Image ${index + 1}`} />
+                ))}
+              </div>
             )}
-
-            <div className="tech-used">
-              {img1 && <img src={img1} alt="Tech Image 1" />}
-              {img2 && <img src={img2} alt="Tech Image 2" />}
-              {img3 && <img src={img3} alt="Tech Image 3" />}
-              {img4 && <img src={img4} alt="Tech Image 4" />}
-              {img5 && <img src={img5} alt="Tech Image 5" />}
-            </div>
 
             {techUsed && <p className="tech-used-text">{techUsed}</p>}
 
             <hr />
 
-            <p className="long-description">
-              {long_description}
-            </p>
+            {children}
           </div>
         </div>
       )}
