@@ -1,7 +1,7 @@
 /* Adapted from https://codepen.io/Hyperplexed/pen/oNJrgdy */
 
 #prize {
-  width: 100vw;
+  width: 88.65vw;
   gap: 0.5rem;
   background-color: rgb(var(--darker-rgb));
   border: 1.5rem solid rgb(255 255 255 / 2.5%);

@@ -14,6 +14,43 @@ function Projects() {
       }, []);
   
     const projectsData = [
+    //AI Project
+    {
+        image: 'images/snakeAI.png',
+        title: 'Snake AI using PyTorch Deep Q Learning',
+        short_description: 'A Snake AI that uses Reinforcement Learning to determine the Next Move',
+        logos: [
+        {
+            pic: 'logos/github-mark-white.png',
+            link: 'https://github.com/Jakerpppp/Snake-AI-PyTorch',
+        },
+        {
+            pic: 'logos/link.png',
+            link: 'https://youtu.be/RyIQAY9aAjc',
+        },
+        ],
+        tech_images: ['tech/python.png', 'tech/pytorch.png', 'tech/pygame.png'],
+        techUsed: 'Repository and Youtube Video Live - Made in January 2024',
+        children: (
+            <>
+        <p>
+        This project represents my foray into the world of artificial intelligence (AI) using Python and PyTorch. 
+        Inspired by the classic game of Snake, I embarked on this journey to visualize and understand how reinforcement learning and deep learning can be applied in a practical, engaging context. 
+        Following a tutorial, I gained a foundational understanding of PyTorch and the implementation of AI in Python. I really wanted to see a real example that I could code of AI learning, to inspire me on the path of AI. 
+        </p>
+        <p> Uses Deep Q Learning and Neural Networks. Developed using PyTorch</p>
+        <p> Gained a basic understanding of PyTorch and its application in AI. 
+            Explored the concepts of reinforcement learning and deep learning.
+            Developed a hands-on project that consolidates theoretical knowledge into practical skills.
+        </p>
+        <p> This project has sparked a deep interest in AI, and I am keen to delve deeper into this field.
+            It has inspired me to access more resources and build a robust understanding of the fundamentals of AI.
+            I am excited to take on more projects like this, furthering my knowledge and skills in AI and PyTorch.
+        </p>
+        </>
+        ),
+    },
+
     //Website Projects
     {
         image: 'images/project-website.png',
